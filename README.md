@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://share.streamlit.io/maxbolger/nfl-receiver-dashboard/main/receiver-dashboard.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/maxbolger/nfl-receiver-dashboard/main/receiver-dashboard.py)
 
 # NFL Receiver Dashboard
 
