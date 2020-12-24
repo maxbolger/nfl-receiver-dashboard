@@ -1,10 +1,10 @@
-[![Open in Streamlit]()
+[![Open in Streamlit](https://share.streamlit.io/maxbolger/nfl-receiver-dashboard/main/receiver-dashboard.py)
 
 # NFL Receiver Dashboard
 
 This app is a dashboard that runs an analysis on any desired WR or TE who has logged at least 30 total targets in the 2020 season. Player info, a game log, and six visualizations of various statistics are displayed for the selected player.
 
-### **Click the badge above or [CLICK HERE]() to visit the app!**
+### **Click the badge above or [CLICK HERE](https://share.streamlit.io/maxbolger/nfl-receiver-dashboard/main/receiver-dashboard.py) to visit the app!**
 
 This app was created using python and the open-source app framework, streamlit. It solely relies on [nflfastR](https://www.nflfastr.com/) data, managed by [Ben Baldwin](https://twitter.com/benbbaldwin) and [Sebastian Carl](https://twitter.com/mrcaseb).
 
