@@ -38,9 +38,7 @@ def get_pbp():
                          compression='gzip', low_memory=False, usecols=col_list1)
     return data_
 
-data_ = get_pbp()
-
-data = data_.copy()
+data = get_pbp()
 #--------
 @st.cache(allow_output_mutation=True)
 def get_pd():
@@ -54,9 +52,7 @@ def get_pd():
 
     return player_data_
 
-player_data_ = get_pd()
-
-player_data = player_data_.copy()
+player_data = get_pd()
 #--------
 
 COLORS = {'ARI':'#97233F','ATL':'#A71930','BAL':'#241773','BUF':'#00338D',
