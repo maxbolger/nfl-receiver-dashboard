@@ -286,13 +286,13 @@ def game_logs(player,team):
                  (df.yardline_100<20)]
 
   rz_tgts = receiver_rz.groupby(['game_id'])[['play_id']].count().rename(
-                            columns = {'play_id':'rz targets'}
+                            columns = {'play_id':'rz tgts'}
                             )
 
   gamelog = pd.concat([gamelog,rz_tgts], axis=1).fillna(0)
 
   gamelog = gamelog[['targets', 'receptions', 'rec. yards',
-                     'air yards','rz targets','rec. td']]
+                     'air yards','rz tgts','rec. td']]
 
   cm = sns.light_palette(COLORS.get(team), as_cmap=True)
 
